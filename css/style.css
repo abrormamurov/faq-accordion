@@ -1,0 +1,154 @@
+/* work-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/work-sans-v19-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* work-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/work-sans-v19-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* work-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/work-sans-v19-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Work-sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #8b6990;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8eeff;
+}
+
+.card {
+  width: 1440px;
+  height: 900px;
+  background-color: #fff;
+}
+.card__img {
+  display: flex;
+  width: 1440px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-image: url(../images/Frame\ 4.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card__main {
+  display: flex;
+  width: 600px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  background: var(--White, #fff);
+  box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
+  margin-left: 420px;
+  margin-top: -152.5px;
+}
+.card__main-title {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+.card__main-img {
+}
+.card__main-text {
+  color: var(--Dark-Purple, #301534);
+
+  /* Display */
+  font-family: "Work Sans";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card__main-title-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.card__main-description {
+  color: var(--Dark-Purple, #301534);
+
+  /* Title */
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card__main-img-2 {
+}
+.card__main-item {
+  color: var(--Pale-Purple, #8b6990);
+
+  /* Body */
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.card__main-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.card__main-item-2 {
+  color: var(--Dark-Purple, #301534);
+
+  /* Title */
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card__main-img-3 {
+  width: 30px;
+  height: 30px;
+}
